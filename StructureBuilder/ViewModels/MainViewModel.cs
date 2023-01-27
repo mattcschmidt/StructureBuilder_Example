@@ -150,6 +150,7 @@ namespace StructureBuilder.ViewModels
                     scStep.SelectedBaseStructure = scm.BaseStructure;
                     scStep.SelectedTargetStructure = scm.TargetStructure;
                     scStep.Margin = scm.Margin;
+                    scStep.SelectedOperation = scm.StructureOperation;
                 }
             }
         }
